@@ -16,7 +16,7 @@ boton.addEventListener("click", async () => {
         <h4>Presión atmosférica:</h4>
         <p id="pressure">${kelvin (devuelve.main.pressure)} hPa</p>
         <h4>Temperatura máxima:</h4>
-        <p id="tempMax">$devuelve.main.temp_max} ºC</p>
+        <p id="tempMax">${kelvin (devuelve.main.temp_max)} ºC</p>
         <h4>Temperatura mínima: </h4>
         <p id="tempMin">${kelvin (devuelve.main.temp_min)} ºC</p>
         <h4>Nubosidad: </h4>
